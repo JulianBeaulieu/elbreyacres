@@ -1,0 +1,304 @@
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-03-05 01:53:22] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-03-05 01:53:22] [class-ss-setup-task.php:33] Creating archive directory: /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/
+[2025-03-05 01:53:22] [class-ss-setup-task.php:72] Adding origin URL to queue: http://elbreyacres.local/
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:22] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:22] [class-ss-fetch-urls-task.php:66] Total pages: 1; Pages remaining: 1
+[2025-03-05 01:53:22] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/
+[2025-03-05 01:53:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-03-05 01:53:22] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae92e72ba-b7Thq4.tmp
+[2025-03-05 01:53:22] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/?simply_static_page=29
+[2025-03-05 01:53:22] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/?simply_static_page=29
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 29126 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae92e72ba-b7Thq4.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 16 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:01d744c3cf92810eb7b7b26c8bc6ff4fd9ed9483===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:66] Total pages: 16; Pages remaining: 15
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/about/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae980ad45-t6uoiz.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/about/?simply_static_page=30
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/about/?simply_static_page=30
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 29709 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: about/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae980ad45-t6uoiz.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/about/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 16 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:cd24d4c40f9dbfd50fb8b10799c187e3234c1c82===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/blog/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae981f797-FAm9OQ.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/blog/?simply_static_page=31
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/blog/?simply_static_page=31
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 28813 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: blog/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae981f797-FAm9OQ.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/blog/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 16 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:3543f931c88e354022bff841a4fb48cec3e38e10===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/contact/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae983087a-P68vMp.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/contact/?simply_static_page=32
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/contact/?simply_static_page=32
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 29250 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: contact/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae983087a-P68vMp.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/contact/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 16 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:53a938b4a0cd71a5be415828c613d0a2dbd28b56===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/primary-navigation.js
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae98418fe-xBt0z8.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/primary-navigation.js?simply_static_page=33
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/primary-navigation.js?simply_static_page=33
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 6046 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/twentytwentyone/assets/js/primary-navigation.js
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae98418fe-xBt0z8.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-content/themes/twentytwentyone/assets/js/primary-navigation.js
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:b0f9938c48f458a2c1356faff9869df50489c4a4===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9842e1a-hISxQJ.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?simply_static_page=34
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?simply_static_page=34
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 1127 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9842e1a-hISxQJ.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:deccb4fe7c3d9617e292f2440d402af5de0e9908===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/feed/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/feed/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/comments/feed/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/comments/feed/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-includes/css/dist/block-library/style.min.css
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9844a8b-neu8T5.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=37
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=37
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/css/dist/block-library/style.min.css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9844a8b-neu8T5.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-includes/css/dist/block-library/style.min.css
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9846568-tsLqeL.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?simply_static_page=38
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?simply_static_page=38
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 130 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9846568-tsLqeL.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:801f42641f58480909df16ba9e6b3973c8b1f5ac===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/style.css
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9847b62-eemQlW.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-content/themes/twentytwentyone/style.css?simply_static_page=39
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/style.css?simply_static_page=39
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 156319 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/twentytwentyone/style.css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9847b62-eemQlW.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-content/themes/twentytwentyone/style.css
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:98c91a2ac1ed9ed6f967704e97979d74686b70b0===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/print.css
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9849a4a-wDKse7.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/print.css?simply_static_page=40
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-content/themes/twentytwentyone/assets/css/print.css?simply_static_page=40
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 2897 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/twentytwentyone/assets/css/print.css
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9849a4a-wDKse7.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-content/themes/twentytwentyone/assets/css/print.css
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:9b76b710a452a0a7b6843fe45460661fda0f1b1e===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/pages/6
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/pages/6
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/xmlrpc.php
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/xmlrpc.php
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/oembed/1.0/embed
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/oembed/1.0/embed
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 16 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:66] Total pages: 20; Pages remaining: 4
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/pages/7
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 20
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/pages/7
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/hello-world/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 20
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae984d42d-U82o1C.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/hello-world/?simply_static_page=46
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/hello-world/?simply_static_page=46
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 33656 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: hello-world/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae984d42d-U82o1C.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/hello-world/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 21 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:7e58cbbe6b1e95f3c8126a123b4c7e9873b76998===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/category/uncategorized/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 20
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9860b7a-u3WrEw.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/category/uncategorized/?simply_static_page=47
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/category/uncategorized/?simply_static_page=47
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 29118 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: category/uncategorized/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9860b7a-u3WrEw.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/category/uncategorized/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 18 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:291ca6cb07e3b52165099ed427680c855eecd30b===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/pages/8
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 20
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/pages/8
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 20 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:66] Total pages: 26; Pages remaining: 6
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/author/julian/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae9873adc-f83s6n.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/author/julian/?simply_static_page=49
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/author/julian/?simply_static_page=49
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 29068 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: author/julian/index.html
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae9873adc-f83s6n.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/author/julian/index.html
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 18 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:68686d7ede6a3b6377ebb3cbe6a3ef973e729b41===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-includes/js/comment-reply.min.js
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67c7ae988481c-KFYyeV.tmp
+[2025-03-05 01:53:28] [class-ss-page-handler.php:38] URL Prepared:http://elbreyacres.local/wp-includes/js/comment-reply.min.js?simply_static_page=50
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:251] Fetching URL: http://elbreyacres.local/wp-includes/js/comment-reply.min.js?simply_static_page=50
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/comment-reply.min.js
+[2025-03-05 01:53:28] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67c7ae988481c-KFYyeV.tmp to /Users/julianbeaulieu/Workplace/elbreyacres/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602/wp-includes/js/comment-reply.min.js
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-05 01:53:28] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/hello-world/feed/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/hello-world/feed/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/posts/1
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/posts/1
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/category/uncategorized/feed/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/category/uncategorized/feed/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/categories/1
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/categories/1
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 20 of 26 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:66] Total pages: 28; Pages remaining: 2
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/author/julian/feed/
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 28
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/author/julian/feed/
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:69] URL: http://elbreyacres.local/wp-json/wp/v2/users/1
+[2025-03-05 01:53:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 28
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://elbreyacres.local/wp-json/wp/v2/users/1
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 28 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-05 01:53:28] [class-ss-fetch-urls-task.php:66] Total pages: 28; Pages remaining: 0
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 28 of 28 pages/files
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2025-03-05 01:53:28] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2025-03-05 01:53:28] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://elbreyacres.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1741139602.zip">Click here to download</a>
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-03-05 01:53:28] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-03-05 01:53:28] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-03-05 01:53:28] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:06
